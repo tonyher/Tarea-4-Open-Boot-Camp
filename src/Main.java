@@ -1,12 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
+        //Object Instance
+
         Client client = new Client();
 
         Worker worker = new Worker();
 
+
+        // Call the methods with its parameters
         System.out.println("Client class");
         client.Show("Tony", 20, 8993272,292);
+
+        System.out.println("Worker class");
+        worker.Show("Marcelo", 21, 8543576,1092);
 
     }
 
